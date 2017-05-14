@@ -1,0 +1,1166 @@
+      *{
+           list-style: none;
+           margin: 0;
+           padding: 0;
+           color:#111;
+           text-decoration: none;
+           font: 12px Helvetica,Arial,sans-serif;
+        }
+        .bd{
+            height:28px;
+        }
+        .global-nav{
+            height: 28px;
+            color: #d5d5d5;
+            background-color: #545652;
+            min-width: 950px;
+        }
+        .global-nav .top-nav{
+            float: right;
+            margin: 0 12px 0 0;
+            line-height: 28px;
+        }
+        .global-nav a{
+            padding:0;
+            margin:0;
+            cursor:pointer;
+            color:#d5d5d5;
+        }
+        .global-nav .top-nav a{
+            display: inline-block;
+            zoom: 1;
+            margin: 0;
+            padding: 0 12px;
+            height: 28px;
+        }
+        .global-nav .top-nav-douban{
+            position: relative;
+            float: right;
+            margin-right: 5px;
+            line-height: 28px;
+        }
+        .global-nav .top-nav-douban a{
+            display: inline-block;
+            zoom: 1;
+            padding: 0 8px;
+            height: 28px;
+        }
+        ul{
+            list-style: none;
+            padding:0;
+            margin:0;
+        }
+        .global-nav .top-nav-items li{
+            display: inline-block;
+            zoom: 1;
+            line-height: 28px;
+            font-size: 12px;
+            vertical-align: baseline;
+        }
+        .global-nav .top-nav-items a{
+            display: inline-block;
+            zoom: 1;
+            padding: 0 12px;
+            height: 28px;
+        }
+        #db-nav{
+            background-color: #f0f3f5;
+        }
+        .nav{
+            width: 100%;
+            min-width: 950px;
+            overflow: hidden;
+            zoom: 1;
+            margin-bottom: 40px;
+        }
+        #db-nav .nav-wrap{
+            border-color:#e3ebec;
+            height:74px;
+        }
+        .nav .nav-wrap{
+            border-bottom: 1px solid #e5ebe4;
+        }
+        .nav .nav-primary{
+            overflow: visible !important;
+            position: relative;
+            padding: 10px 0 5px;
+            overflow: hidden;
+            zoom: 1;
+            width: 950px;
+            margin: 0 auto;
+        }
+        #db-nav .nav-logo{
+            background: url(https://img3.doubanio.com/f/shire/81252980276323482cf7ec03df52a5c5eb98f6d3/pics/nav/lg_movie_a12_2.png) no-repeat 0 12px;
+        }
+        .nav .nav-logo {
+            float: left;
+            height: 56px;
+            width: 145px;
+            margin: 0 13px 0 0;
+        }
+        .nav .nav-logo a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            line-height: 100em;
+        }
+        .nav-search{
+            margin-left: 145px;
+            overflow: visible !important;
+            position: relative;
+            zoom:1;
+            padding: 10px 0 15px 0;
+        }
+        form{
+            margin: 0;
+            padding: 0;
+            border: 0px;
+            display: block;
+            height:34px;
+        }
+        .nav-search label{
+            position: absolute;
+            left: 11px;
+            top: 10px;
+            line-height: 30px;
+            cursor: text;
+            color: #bbb;
+            width: auto;
+        }
+        #db-nav .nav-search .inp{
+            background-image: url(https://img3.doubanio.com/f/shire/44552ac9f592ad9d2ef5c8ae708533990e94b605/pics/nav1/nav_mv_bg.png);
+        }
+        .nav-search .inp{
+            float: left;
+            width: 470px;
+            height: 34px;
+            text-align: center;
+            cursor: text;
+            background: url(https://img3.doubanio.com/f/shire/d45aaa7569335285e298dd7f3c045c8b364a19de/pics/nav1/nav_bg_a1.png)no-repeat 0 0;
+        }
+        .nav-search .inp input{
+            background: #fff;
+            width: 96%;
+            margin: 0;
+            text-align: left;
+            height: 30px;
+            padding-left: 10px;
+            outline: none;
+        }
+        .nav-search input{
+            border: none;
+        }
+        .nav-search .inp-btn{
+            position: relative;
+            left: -1px;
+            width: 37px;
+            height: 34px;
+            zoom: 1;     
+            overflow: hidden;
+        }
+        #db-nav .nav-search .inp-btn input{
+            background-image: url(https://img3.doubanio.com/f/shire/44552ac9f592ad9d2ef5c8ae708533990e94b605/pics/nav1/nav_mv_bg.png);
+        }
+        .nav-search .inp-btn input{
+            width: 100%;
+            height: 100%;
+            font-size: 0;
+            padding: 35px 0 0 0;
+            overflow: hidden;
+            background: url(/f/shire/d45aaa7569335285e298dd7f3c045c8b364a19de/pics/nav1/nav_bg_a1.png) no-repeat 0 -40px;
+            color: transparent;
+            cursor: pointer;
+        }
+        .ban-annual2016{
+            position: absolute;
+            top:0;
+            right: 50px;
+            background: transparent !important;
+        }
+        .ban-annual2016 img {
+            height: 90px;
+            margin-top: 2px;
+        }
+        a img{
+            border-width:0;
+        }
+        img{
+            max-width:100%;
+        }
+        .nav-secondary{
+            width: 950px;
+            margin: 0 auto;
+            padding-bottom: 0;
+            overflow: hidden;
+            zoom: 1;
+            height:39px;
+        }
+        .nav-secondary .nav-items{
+            float: none;
+            zoom: 1;
+            font-size: 13px;
+        }
+        .nav-secondary ul {
+            margin: 9px 0;
+        }
+        ul{
+            list-style:none;
+        }
+        .nav-secondary li {
+            display: inline;
+            margin-right: 30px;
+        }
+        #db-nav a{
+            color:#27a;
+        }
+        #db-nav a:hover{
+            background-color: #37a;
+            color:#fff;
+        }
+        #wrapper {
+            width: 950px;
+            margin: 0 auto;
+        }
+        #content {
+            min-height: 420px;
+        }
+        .clearfix{
+            width:950px;
+            display: block;
+            zoom: 1;
+        }
+        .article {
+            float: left;
+            width: 590px;
+            padding-right: 40px;
+            display: block;
+        }
+        #screening{
+            margin-bottom: 36px;
+        }
+        .ui-slide-control {
+            float: right;
+            margin: 5px 0 0 15px;
+        }
+        span{
+            font-size: 12px;
+        }
+        .ui-slide-control .btn-prev {
+            background-position: 0 0;
+        }
+        .ui-slide-control a {
+            display: block;
+            float: left;
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            cursor: pointer;
+            background: url(https://img3.doubanio.com/f/movie/708be21a7bb2d0f21419dc4e2e2fde8b21ad661a/pics/movie/slide_swithc_2.png) no-repeat;
+        }
+        .ui-slide-control .btn-next {
+            background-position: -18px 0;
+        }
+        .slide-tip {
+            float: right;
+            line-height: 30px;
+            color: #666;
+        }
+        #content h2 {
+            color: #111;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+            margin-bottom: 18px;
+        }
+        h2{
+            font: 15px Arial, Helvetica, sans-serif;
+            margin: 0 0 12px 0;
+            line-height: 150%;
+        }
+        #screening h2 span {
+            margin-left: 15px;
+        }
+        #content h2 span{
+            font-size: 12px;
+        }
+        #content h2 span a{
+             color:#27a;
+         }
+        #content h2 span a:hover{
+            background-color: #37a;
+            color:#fff;
+        }
+        #screening .screening-bd {
+            overflow: hidden;
+            position: relative;
+            height: 270px;
+        }
+        #screening .ui-slide-content {
+            position: absolute;
+        }
+        .ui-slide-content{
+            white-space: nowrap;
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+            /*width:150px;*/
+        }
+        #screening .ui-slide-item {
+            font-size: 12px;
+            text-align: center;
+            margin: 0 10px 0 9.5px;
+            width: 128px;
+            height: 270px;
+            overflow: hidden;
+        }
+        .ui-slide-item {
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+        }
+        #screening .poster {
+            width:128px;
+            height: 180px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+        ul{
+            list-style: none;
+            margin:0;
+            padding:0;
+        }
+        #screening .ui-slide-item img {
+            width: 128px;
+        }
+        #screening .title a{
+            font-size: 15px;
+            white-space: nowrap;
+            height: 22px;
+            overflow: hidden;
+        }
+        #screening .title a {
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+            height: 24px;
+            line-height: 24px;
+        }
+        #screening .new-show{
+            position: relative;
+            padding-right: 13px;
+            background: url(https://img3.doubanio.com/f/movie/3b1dc75c76318125e77069dbd84c1a35fb59d1aa/pics/movie/new_release_icon.png) left 1px no-repeat;
+            width: 13px;
+            margin: 2px 0 0 3px;
+            zoom: 1;
+            left:-5px;
+        }
+        .new-show {
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+            height: 24px;
+            line-height: 24px;
+        }
+        #screening .rating {
+            display: inline-block;
+            zoom: 1;
+            margin: 4px auto 2px;
+            height: 19px;
+        }
+        #screening .rating .rating-star {
+            margin: 3px 3px 0 0;
+            width: 55px;
+        }
+        #screening .rating span {
+            float: left;
+        }
+        span{
+            font-size:12px;
+        }
+        .allstar30 {
+            height:11px;
+            background-position: 0 -44px;
+            background-image: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) ;
+        }
+        #screening .subject-rate {
+            color: #e09015;
+            font-size: 12px;
+            margin-left: 2px;
+        }
+        #screening .ticket-btn span{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            width: 90px;
+            height: 24px;
+            line-height: 24px;
+            background-color: #268dcd;
+            color: #fff;
+            border-radius: 2px;
+        }
+        #screening .ticket-btn a{
+            background: 0;
+            color:#fff;
+        }
+        #gaia{
+            margin-bottom: 40px;
+        }
+        #gaia .fliter-wp {
+            overflow: hidden;
+            zoom: 1;
+        }
+        #gaia h2 {
+            font-size: 17px;
+        }
+        #content h2 {
+            color: #111;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+            margin-bottom: 18px;
+        }
+        #gaia h2 .activate {
+            color: #111;
+            cursor: default;
+        }
+        #gaia h2 a {
+            font-size: 17px;
+        }
+        #gaia h2 .items{
+            color:#27a;
+        }
+         #gaia h2 .items:hover{
+            background-color: #37a;
+            color:#fff;
+         }
+         #gaia .tags{
+            overflow: hidden;
+            zoom: 1;
+        }
+        #gaia .tags .tag-list{
+            display: inline;
+            padding-right: 5px;
+        }
+        #gaia .tags .activate{
+            background: #4b8ccb;
+            color: #fff;
+        }
+        #gaia .tags label{
+            display: inline-block;
+            zoom: 1;
+            cursor: pointer;
+            padding: 1px 10px;
+            margin: 0 3px 5px 0;
+            font-size: 14px;
+            border-radius: 2px;
+            height: 22px;
+            line-height: 22px;
+        }
+        #gaia .tool {
+            border-top: 1px solid #eee;
+            margin-top: 15px;
+            padding: 15px 0;
+            overflow: hidden;
+            font-size: 13px;
+            color: #666;
+            zoom: 1;
+        }
+        #gaia .sort {
+            float: left;
+            padding-left: 2px;
+        }
+        #gaia .tool input {
+            position: relative;
+            top: -1px;
+        }
+        input {
+            font-size: 12px;
+        }
+        input {
+            margin-right: 3px;
+            vertical-align: middle;
+        }
+        #gaia .sort label {
+            margin-right: 20px;
+        }
+        label {
+            font-family: Tahoma;
+            vertical-align: middle;
+        }
+        label {
+            cursor: default;
+        }
+        #gaia .check {
+            float: right;
+        }
+        #gaia .check label {
+            margin-left: 20px;
+        }
+        #gaia .list-wp {
+            width: 590px;
+            overflow: hidden;
+        }
+        #gaia .list {
+            width: 605px;
+            overflow: auto;
+            zoom: 1;
+        }
+        #gaia .item {
+            display: block;
+            float: left;
+            color: #27a;
+            font-size: 13px;
+            text-align: center;
+            margin: 0 11.25px 10px 0;
+            width: 140px;
+        }
+        #gaia p{
+            color:#27a;
+            font-size: 13px;
+        }
+        #gaia .item .cover-wp {
+            background-size: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        #gaia .item p {
+            margin: 10px 0px 0;
+            height: 44px;
+            overflow: hidden;
+        }
+        #gaia .item strong {
+            color: #e09015;
+            font-size: 13px;
+        }
+        #gaia .item .green {
+            color: #58a05a;
+        }
+        #gaia .item .new {
+            opacity: 1;
+            position: relative;
+            top: -2px;
+        }
+        #gaia .more {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+            font-size: 14px;
+            background: #f7f7f7;
+            color:#37a;
+        }
+        #gaia .more:hover{
+            background-color:#d5d5d5;
+        }
+        #gallery-frames {
+            margin-bottom: 36px;
+            height:291px;
+        }
+        .gallery-hd {
+            margin-bottom: 18px;
+        }
+        .gallery-ui-slide-control {
+            float: right;
+            margin: 5px 0 0 15px;
+        }
+        .gallery-ui-slide-control .gallery-btn-prev {
+            background-position: 0 0;
+        }
+        .gallery-ui-slide-control a {
+            display: block;
+            float: left;
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            cursor: pointer;
+            background: url(https://img3.doubanio.com/f/movie/708be21a7bb2d0f21419dc4e2e2fde8b21ad661a/pics/movie/slide_swithc_2.png) no-repeat;
+        }
+        .gallery-ui-slide-control .gallery-btn-next {
+            background-position: -18px 0;
+        }
+        .gallery-ui-slide-control a {
+            display: block;
+            float: left;
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            cursor: pointer;
+            background: url(https://img3.doubanio.com/f/movie/708be21a7bb2d0f21419dc4e2e2fde8b21ad661a/pics/movie/slide_swithc_2.png) no-repeat;
+        }
+        .slide-tip {
+            float: right;
+            line-height: 30px;
+            color: #666;
+        }
+        #content h2 {
+            color: #111;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+            margin-bottom: 18px;
+        }
+        #hot-gallery {
+            position: relative;
+            width: 590px;
+            height: 240px;
+            overflow: hidden;
+        }
+        .ui-slide-content {
+            position: absolute;
+            white-space: nowrap;
+            margin: 0;
+            padding: 0;
+        }
+        .ui-slide-item {
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+        }
+        .gallery-frame {
+            width: 590px;
+            height: 240px;
+            white-space: normal;
+        }
+        .gallery-frame img {
+            float: left;
+            width: 350px;
+            height: 240px;
+            border: 0;
+        }
+        .gallery-frame .gallery-detail {
+            background: #f9f9f9;
+            position: relative;
+            width: 192px;
+            height: 168px;
+            padding: 48px 24px 24px 24px;
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+        }
+        .gallery-hd {
+            margin-bottom: 18px;
+        }
+        .gallery-hd h3 {
+            font-size: 18px;
+            color: #111;
+            line-height: 28px;
+            background: transparent;
+        }
+        h3 {
+            margin-left: 4px;
+            font: 14px Arial, Helvetica, sans-serif;
+        }
+        .gallery-bd p {
+            font-size: 13px;
+            color: #999;
+            line-height: 20px;
+        }
+        #reviews{
+            margin-bottom:36px;
+        }
+        #content h2 span {
+            font-size: 12px;
+            margin-left: 12px;
+        }
+        .review {
+            overflow: hidden;
+            zoom: 1;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .review-hd {
+            float: left;
+            width: 68px;
+        }
+        .review-hd img {
+            width: 68px;
+        }
+        a img {
+            border-width: 0;
+            vertical-align: middle;
+        }
+        .review-bd {
+            padding-left: 83px;
+        }
+        .review-bd h3 a{
+            color:#27a;
+            font-size: 14px;
+        }
+        .review-bd h3 a:hover{
+            background-color: #268dcd;
+            color: #fff;
+        }
+        .review-bd .review-meta {
+            margin-left:4px;
+            color: #666;
+            padding: 5px 0;
+        }
+        .review-bd .review-meta a {
+            color: #666;
+        }
+        .review-bd .review-meta a:hover{
+            color: #fff;
+            background:#37a;
+        }
+        .allstar40 {
+            margin: 0 3px 0 0;
+            overflow: hidden;
+            width:55px;
+            height:11px;
+            display:inline-block;
+            background-position: 0 -22px;
+            background-image: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) ;
+        }
+        .review-bd .review-content {
+            line-height: 18px;
+            margin-left:4px;
+        }
+        .review-content a{
+            color:#27a;
+        }
+        #reviews .last {
+            border: 0 none;
+        }
+        .clearfix .aside {
+            float: right;
+            width: 310px;
+        }
+        .rating-answer {
+            margin: 0 0 20px;
+            padding: 12px 0 12px 18px;
+            line-height: 1.5;
+            background: #f2f7f6;
+            border-radius: 4px;
+            width: 282px;
+        }
+        .rating-answer li a{
+            font-size:13px;
+            color: #27a;
+        }
+        .rating-answer li a:hover{
+            color: #fff;
+            background:#37a;
+        }
+        #cinemas-search {
+            background-color: #f6f3d3;
+            border-radius: 4px;
+            padding: 12px;
+            vertical-align: top;
+            width: 276px;
+            height:26px;
+        }
+        #cinemas-search {
+            margin-bottom: 28px;
+        }
+        .cinemas-search-bd{
+            display:block;
+            zoom:1;
+        }
+        #city {
+            line-height: 26px;
+            float: left;
+            width: 65px;
+            height: 24px;
+            border: 1px solid #ddd;
+            text-align: center;
+            background: #fff url(https://img3.doubanio.com/f/movie/889c606eafe76ccd00cce52f2043aff844da716f/pics/movie/city_select_arrow.png) no-repeat 50px 10px;
+            cursor: pointer;
+            color: #666;
+            position: relative;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+        #city-id {
+            display: block;
+            text-align: left;
+            padding-left: 5px;
+            margin-top:3px;
+            zoom: 1;
+        }
+        #cinemas-suggestion {
+            position: relative;
+        }
+        #cinemas-suggestion {
+            width: 202px;
+            border: 1px solid #e0e0e0;
+            background-color: #fff;
+            height: 24px;
+            line-height: 26px;
+            float: left;
+        }
+        #cinemas-suggestion-input {
+            position: relative;
+        }
+        #cinemas-suggestion-input {
+            height: 24px;
+            overflow: hidden;
+        }
+        #cinemas-search #cinemas-suggestion input {
+            width: 195px;
+            border: 0 none;
+            display: block;
+            height: 24px;
+            padding: 0 5px;
+            margin: 0;
+        }
+        #cinemas-suggestion .placeholder {
+            color: silver;
+        }
+        input{
+            font-size: 12px;
+        }
+        #cinemas-search #cinemas-suggestion a {
+            overflow: hidden;
+        }
+        #cinemas-search #cinemas-suggestion-search, #cinemas-search #cinemas-suggestion-search:hover {
+            top: 6px;
+            background: url(https://img3.doubanio.com/f/movie/3776e9ac5b67d16ae2653166711dca8af3216a87/pics/focus_search.png) no-repeat -12px 0;
+        }
+        #cinemas-suggestion a {
+            color: #a19e9b;
+        }
+        #cinemas-suggestion-search, #cinemas-suggestion-search:hover {
+            display: block;
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            background: url(https://img3.doubanio.com/f/movie/3776e9ac5b67d16ae2653166711dca8af3216a87/pics/focus_search.png) no-repeat -12px 0;
+            font-size: 0;
+        }
+        .hot-link {
+            margin: 25px 0 20px;
+            padding: 16px 0 16px 18px;
+            line-height: 1.5;
+            background: #f2f7f6;
+            border-radius: 4px;
+            width: 282px;
+        }
+        #content .hot-link h2 {
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+            color: #072;
+        }
+        .hot-link ul {
+            font-size: 14px;
+            list-style: disc inside;
+            color: #cedcd9;
+        }
+        .hot-link li {
+            margin-top: 8px;
+            list-style: none;
+            font-size: 13px;
+        }
+        .hot-link li a{
+            color:#27a;
+            font-size: 13px;
+        }
+        .hot-link li a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        #billboard{
+            display: inline-block;
+            zoom:1;
+            margin-bottom:50px;
+        }
+        #billboard h2 {
+            margin-bottom: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+        #billboard .order {
+            width: 20px;
+            font-size: 9px;
+            text-align: center;
+        }
+        #billboard td {
+            padding: 7px 0;
+        }
+        #billboard td {
+            border-bottom: 1px solid #eaeaea;
+        }
+        #billboard .title {
+            width: 290px;
+        }
+        #billboard .title a{
+            color:#27a;
+        }
+        #billboard .title a:hover{
+            background: #37a;
+            color:#fff;
+        }
+        #show-redeem-block {
+            background-color: #e3ebec;
+            margin-bottom: 14px;
+        }
+        #show-redeem-block p {
+            height: 40px;
+            line-height: 40px;
+        }
+        #show-redeem-block span {
+            padding-left: 20px;
+        }
+        #show-redeem-block span a{
+            color:#27a;
+        }
+        #show-redeem-block span a:hover{
+            background: #37a;
+            color:#fff;
+        }
+        #doulist {
+            margin-bottom: 40px;
+        }
+        #doulist h2 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 10px;
+        }
+        #doulist ul {
+            border-top: 1px solid #eee;
+        }
+        #doulist ul li {
+            position: relative;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            zoom: 1;
+        }
+        #doulist li span {
+            font-size: 13px;
+            float: right;
+            color: #999;
+        }
+        #doulist .title {
+            width: 247px;
+        }
+        #doulist a {
+            color:#27a;
+            font-size: 13px;
+        }
+        #doulist a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        #contact-and-cooperation li {
+            line-height: 24px;
+        }
+        #contact-and-cooperation img {
+            height: 14px;
+            margin-top: -2px;
+            vertical-align: middle;
+        }
+        #contact-and-cooperation a{
+            color:#27a;
+        }
+        #contact-and-cooperation a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        .aside .mod {
+            margin: 0 0 40px;
+        }
+        ul.embassy-list li {
+            width: 60px;
+            float: left;
+            font-size: 12px;
+            text-align: center;
+        }
+        .embassy-list .icon-embassy-weibo{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 5px auto;
+            background:url(https://img3.doubanio.com/f/movie/8f5f3bdbdc71bfd34eef8e3f16d13c857e59301b/pics/movie/home_weibo.png) ;
+        }
+        .embassy-list .icon-embassy-weixin{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 5px auto;
+            background:url(https://img3.doubanio.com/f/movie/5d377d72b39a5cd2532813d1e42da3f34438a465/pics/movie/home_weixin.png) ;
+        }
+        .embassy-list .icon-embassy-award-site{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 5px auto;
+            background:url(https://img3.doubanio.com/f/movie/c18cb6b93e0c07828c59c97e495d3816a8539bf6/pics/movie/home_award_site@2x.jpg) no-repeat;
+            background-size: contain;
+        }
+        .embassy-list .icon-embassy-club-site{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 5px auto;
+            background:url(https://img3.doubanio.com/f/movie/38db45402310e6064f082d2ec87ee22d7f112b18/pics/movie/home_club_site@2x.jpg) no-repeat;
+            background-size: contain;
+        }
+        .embassy-list li a{
+            color:#27a;
+        }
+        .embassy-list  a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        .qrcode-app {
+            position: relative;
+            top:85px;
+            margin: 20px 0;
+        }
+        .qrcode-app .download {
+            display: block;
+            width: 300px;
+            height: 80px;
+            background: url(https://movie.douban.com/pics/qrcode_app4@2x.png) no-repeat;
+            background-size: contain;
+        }
+        .extra {
+            clear: both;
+            text-align: right;
+        }
+        #footer{
+            width:950px;
+            height:19px;
+            color: #999;
+            padding: 6px 0;
+            margin-top: 1680px;
+            overflow: hidden;
+            zoom: 1;
+            border-top: 1px dashed #ddd;
+        }
+        .fleft {
+            color:#999;
+            float: left;
+        }
+        .fright {
+            float: right;
+        }
+        .fright a{
+            color:#27a;
+        } 
+        .fright a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        p.first {
+            margin-top: 0;
+        }
+
+        .ul {
+            border-bottom: 1px dashed #DDDDDD;
+            line-height: 100%;
+            clear: both;
+            margin: 12px 0;
+        }
+        .article table{
+            width:590px;
+            height:106px;
+        }
+        .addNew img{
+            width:63px;
+            height:100px;
+        }
+        td{
+            font: 12px Helvetica,Arial,sans-serif;
+            line-height: 1.62;
+        }
+        .pl2{
+            font: 14px Arial, Helvetica, sans-serif;
+            line-height: 150%;
+            color: #666666;
+        }
+        .pl2 a{
+            font-size :14px;
+            color : #27a;
+        }
+        .pl2 a:hover{
+            color:#fff;
+            background: #37a;
+        }
+        .a1 span{
+            color : #27a;
+        }
+        .pl {
+            font: 12px Arial, Helvetica, sans-serif;
+            line-height: 150%;
+            color: #666666;
+        }
+        .rating_nums {
+            padding-left: 0;
+        }
+        .rating_nums, .rating_num {
+            color: #e09015;
+            font-size: 12px;
+            padding: 0 3px;
+        }
+        .allstar{
+            display: inline-block;
+            width:55px;
+            height:11px;
+            background-image: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) ;
+        }
+        .allstar25 {
+            background-position: 0 -55px;
+        }
+        .allstar35 {
+            background-position: 0 -33px;
+        }
+        .allstar30 {
+            background-position: 0 -44px;
+        }
+        .allstar45 {
+            background-position: 0 -11px;
+        }
+        .allstar40 {
+            background-position: 0 -22px;
+        }
+        #paginator {
+            font: 14px Arial, Helvetica, sans-serif;
+            color: #aaa;
+            margin: 20px 0;
+            line-height: 150%;
+            text-align: center;
+            height: 21px;
+        }
+        #paginator a{
+            font-size: 14px;
+            padding: 0px 4px;
+            margin: 2px;
+        }
+        .thispage{
+            background-color: #649FC8;
+            color:#fff;
+            padding: 0px 4px;
+            margin: 2px;
+        }
+        #paginator .count {
+            margin-left: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+        #paginator .prev:hover{
+            background: #37a;
+            color:#fff;
+        }
+        #paginator .next:hover{
+            background: #37a;
+            color:#fff;
+        }
+        .pl2 .a1:hover  span{
+            color:#fff;
+        }

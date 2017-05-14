@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豆瓣电影</title>
+    <link rel="stylesheet" href="douban.css">
+</head>
+<body>
+    <div class="global-nav">
+        <div class="bd">   
+            <div class="top-nav">
+                <a href="">登录</a>
+                <a href="">注册</a>
+            </div>
+            <div class="top-nav-douban">
+                <a href="">下载豆瓣客户端</a>
+            </div>
+            <div class="top-nav-items">
+                <ul>
+                    <li><a href="">豆瓣</a></li>
+                    <li><a href="">读书</a></li>
+                    <li><a href="">电影</a></li>
+                    <li><a href="">音乐</a></li>
+                    <li><a href="">同城</a></li>
+                    <li><a href="">小组</a></li>
+                    <li><a href="">阅读</a></li>
+                    <li><a href="">FM</a></li>
+                    <li><a href="">东西</a></li>
+                    <li><a href="">集市</a></li>
+                    <li><a href="">更多</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="db-nav" class="nav">
+        <div class="nav-wrap">
+            <div class="nav-primary">
+                <div class="nav-logo">
+                </div>
+                <div class="nav-search">
+                    <form method="get" id="top-inp-btn">
+                        <label style="display:none">电影、影人、影院、电视剧</label>
+                        <div class="inp">
+                            <input type="text" value placeholder="电影、影人、影院、电视剧" id="searchinput">
+                        </div>
+                        <div class="inp-btn">
+                            <input type="submit" value="搜索" class="only-button">
+                        </div>
+                    </form>
+                    <a href="" target="_blank" class="ban-annual2016">
+                        <img src="https://img3.doubanio.com/f/movie/9f89b66fd864158832aa65002525bb34fb029a56/pics/movie/events/annual2016/ad_web.png">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="nav-secondary">
+            <div class="nav-items"> 
+                <ul>
+                    <li><a href="">影讯&购票</a></li>
+                    <li><a href="">选电影</a></li>
+                    <li><a href="">电视剧</a></li>
+                    <li><a href="">排行榜</a></li>
+                    <li><a href="">分类</a></li>
+                    <li><a href="">影评</a></li>
+                    <li><a href="">2016年度榜单</a></li>
+                    <li><a href="">2016观影报告</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+            <div class="clearfix">
+                <div class="article">
+                    <div id="screening">
+                        <div class="screening-hd">
+                            <div class="ui-slide-control">
+                                <span class="prev-btn">
+                                    <a href="" class="btn-prev"></a>
+                                </span>
+                                <span class="next-btn">
+                                    <a href="" class="btn-next"></a>
+                                </span>
+                            </div>
+                            <div class="slide-tip">
+                                <span class="ui-slide-index">1</span>
+                                /
+                                <span class="ui-slide-max">3</span>
+                            </div>  
+                            <h2>
+                                正在热映
+                                <span><a href="">全部正在热映»</a></span>
+                                <span><a href="">即将上映»</a></span>
+                            </h2>
+                        </div>
+                        <div class="screening-bd">
+                            <ul class="ui-slide-content" style="left:0px">
+                                <li class="ui-slide-item">
+                                    <ul>
+                                        <li class="poster"><a href=""><img src="https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2410569976.jpg" alt="极限特工3：终极回归"></a></li>
+                                        <li class="title">
+                                            <a href="">极限特工3：终...</a>
+                                            <span class="new-show"></span>
+                                        </li>
+                                        <li class="rating">
+                                            <span class="rating-star allstar30"></span>
+                                            <span class="subject-rate">5.8</span>
+                                        </li>
+                                        <li class="ticket-btn">
+                                            <span>
+                                                <a href="">选座购票</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ui-slide-item">
+                                     <ul>
+                                        <li class="poster"><a href=""><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2417948347.jpg" alt="决战食神'"></a></li>
+                                        <li class="title">
+                                            <a href="">决战食神</a>
+                                            <span class="new-show"></span>
+                                            </li>
+                                        <li class="rating"><span class="text-tip">暂无评分</span></li>
+                                        <li class="ticket-btn">
+                                            <span>
+                                                <a href="">选座购票</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ui-slide-item">
+                                     <ul>
+                                        <li class="poster"><a href=""><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2408407697.jpg" alt="乘风破浪"></a></li>
+                                        <li class="title">
+                                            <a href="">乘风破浪</a>
+                                            <span class="new-show"></span>
+                                        </li>
+                                        <li class="rating"><span class="text-tip">暂无评分</span></li>
+                                        <li class="ticket-btn">
+                                            <span>
+                                                <a href="">选座购票</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ui-slide-item">
+                                     <ul>
+                                        <li class="poster"><a href=""><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2412371389.jpg" alt="功夫瑜伽"></a></li>
+                                        <li class="title"><a href="">功夫瑜伽</a></li>
+                                        <li class="rating">
+                                            <span class="rating-star allstar30"></span>
+                                            <span class="subject-rate">5.4</span>
+                                        </li>
+                                        <li class="ticket-btn">
+                                            <span>
+                                                <a href="">选座购票</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="movie-home">
+                        <div style="position: relative; margin: 0px 0px 20px; display:inline-block;width: 590px;height: 112px;">
+                            <img src="https://img3.doubanio.com/view/dale-online/dale_ad/public/bd1f0a49a934567.jpg" alt="乘风破浪" border="0" width="590" height="112" style="position: absolute">
+                        </div>
+                    </div>
+                    <div id="gaia">
+                        <div class="fliter-wp">
+                            <h2>
+                                <a href="">选电影</a>
+                                &nbsp; / &nbsp;
+                                <a href="" class="items">选电视剧</a>
+                            </h2>
+                            <div class="filter">
+                                <div class="tags">
+                                    <div class="tag-list">
+                                        <label for="" class="activate">热门</label>
+                                        <label for="">最新</label>
+                                        <label for="">经典</label>
+                                        <label for="">可播放</label>
+                                        <label for="">豆瓣高分</label>
+                                        <label for="">冷门佳片</label>
+                                        <label for="">华语</label>
+                                        <label for="">欧美</label>
+                                        <label for="">韩国</label>
+                                        <label for="">日本</label>
+                                        <label for="">动作</label>
+                                        <label for="">喜剧</label>
+                                        <label for="">爱情</label>
+                                        <label for="">科幻</label>
+                                        <label for="">悬疑</label>
+                                        <label for="">恐怖</label>
+                                        <label for="">动画</label>
+                                    </div>
+                                </div>
+                                <div class="tool">
+                                    <div class="sort">
+                                        <label for="">
+                                            <input type="radio" name="sort" value="recommend" checked="checked">
+                                            按热度排序
+                                        </label>
+                                        <label for="">
+                                            <input type="radio" name="sort" value="time">
+                                            按时间排序
+                                        </label>
+                                        <label for="">
+                                            <input type="radio" name="sort" value="rank">
+                                            按评价排序
+                                        </label>
+                                    </div>
+                                    <div class="check">   
+                                        <label for="">
+                                            <input type="checkbox" name="watched">
+                                            我没看过的
+                                        </label>
+                                        <label for="">
+                                            <input type="checkbox" name="playable">
+                                            可在线播放
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-wp">
+                            <div class="list">
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2421855655.jpg" alt="海边的曼彻斯特"></div>
+                                    <p>海边的曼彻斯特<strong>8.6</strong></p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2397337958.jpg" alt="血战钢锯岭"></div>
+                                    <p>血战钢锯岭<strong>8.7</strong></p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2383574400.jpg" alt="卡推女王"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        卡推女王<strong>7.3</strong>
+                                    </p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2327174165.jpg" alt="宁静的热情"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        宁静的热情<strong>7.0</strong>
+                                    </p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2377941616.jpg" alt="亚美尼亚大地震"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        亚美尼亚大地震<strong>7.2</strong>
+                                    </p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2384760187.jpg" alt="国王的选择"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        国王的选择<strong>7.4</strong>
+                                    </p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2325218959.jpg" alt="团地"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        团地<strong>7.2</strong>
+                                    </p>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="cover-wp"><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2367668971.jpg" alt="保持站立"></div>
+                                    <p>
+                                        <span class="green">
+                                            <img src="https://img3.doubanio.com/f/movie/caa8f80abecee1fc6f9d31924cef8dd9a24c7227/pics/movie/ic_new.png" alt="" width="16" class="new">
+                                        </span>
+                                        保持站立<strong>6.4</strong>
+                                    </p>
+                                </a>
+                            </div>
+                            <a href="" class="more">加载更多</a>
+                        </div>
+                    </div>
+                    <div id="gallery-frames">   
+                        <div class="gallery-hd">
+                            <div class="gallery-ui-slide-control">
+                                <span class="prev-btn"><a href="" class="gallery-btn-prev"></a></span>
+                                <span class="next-btn"><a href="" class="gallery-btn-next"></a></span>
+                            </div>
+                            <div class="slide-tip">
+                                <span>1</span>
+                                /
+                                <span>2</span>
+                            </div>
+                            <h2>热门推荐</h2>
+                        </div>
+                        <div class="hot-gallery">
+                            <ul class="ui-slide-content">
+                                <li class="ui-slide-item">
+                                    <div class="gallery-frame">
+                                        <a href=""><img src="https://img3.doubanio.com/view/movie_gallery_frame_hot_rec/normal/public/ebbe008c4b76172.jpg" alt="美国新浪潮？—奥斯卡的后浪与前浪"></a>
+                                        <div class="gallery-detail">   
+                                            <div class="gallery-hd"><h3>美国新浪潮？—奥斯卡的后浪与前浪</h3></div>
+                                            <div class="gallery-bd"><p>今年的奥斯卡角逐阵容的确很有意思：老司机名导演纷纷不见其名，而一大帮初出茅庐的新导演则“鸠占鹊巢”。</p></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="reviews">
+                        <div class="reviews-hd">
+                            <h2>
+                                最受欢迎的影评
+                                <span><a href="">更多热门影评»</a></span>
+                                <span><a href="">新片影评»</a></span>
+                            </h2>
+                        </div>
+                        <div class="revies-bd">
+                            <div class="review">
+                                <div class="review-hd"><a href=""><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p1510986935.jpg" alt="失踪宝贝" style="display:inline"></a></div>
+                                <div class="review-bd">
+                                    <h3><a href="">宝贝---你该何去何从</a></h3>
+                                    <div class="review-meta">
+                                        <a href="">苗朵</a>
+                                        评论
+                                        <a href="">《失踪宝贝》</a>
+                                        <span class="allstar40"></span>
+                                    </div>
+                                    <div class="review-content">
+                                        整个故事可以说是反转反转再反转,最后丢给观众一种思考,失踪的阿曼达究竟是应该一直失踪下去还是回到母亲(她的母亲是个瘾君子,对阿曼达基本是不管不顾)的身边(阿曼达有一个娃娃叫安娜贝尔,与她形影不离,影片最后... 
+                                        <a href="">(全文)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review last">
+                                <div class="review-hd"><a href=""><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2264377763.jpg" alt="夏洛特烦恼" style="display:inline"></a></div>
+                                <div class="review-bd">
+                                    <h3><a href="">用简单轻松的心情去对待一部喜剧</a></h3>
+                                    <div class="review-meta">
+                                        <a href="">蒹葭采草</a>
+                                        评论
+                                        <a href="">《夏洛特烦恼》</a>
+                                        <span class="allstar40"></span>
+                                    </div>
+                                    <div class="review-content">
+                                        每个屌丝都有一个梦想，实现自己的大业再娶一个完美女神做妻子。电影中的这位屌丝夏洛也是如此。夏洛在现实生活中生活事业皆不如意，且不堪妻子的管束。有一次在曾经的女神婚礼上醉酒，大闹后在马桶上他南柯一梦... 
+                                        <a href="">(全文)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside">
+                    <div class="rating-answer">
+                        <ul>
+                            <li><a href="">豆瓣电影评分八问</a></li>
+                        </ul>
+                    </div>
+                    <div id="cinemas-search">
+                        <div classs="cinemas-search-bd clearfix">
+                            <div id="city">
+                                <span id="city-id">哈尔滨</span>
+                            </div>  
+                            <div id="cinemas-suggestion">
+                                <div class="cinemas-suggestion-input">
+                                    <input type="text" placeholder="搜索本地影院" class="placeholder" autocomplete="off">
+                                    <a href="" id="cinemas-suggestion-search">搜影院</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dale_movie_home_top_right">
+                        <a href=""><img src="https://img3.doubanio.com/view/dale-online/dale_ad/public/90f6031a220dbdc.jpg" alt=""></a>
+                    </div>
+                    <div class="hot-link">
+                        <h2> 电影活动  · · · · · · </h2>
+                        <ul>
+                            <li><a href="">资讯 |《乐高蝙蝠侠大电影》吹来逗贱风</a></li>
+                            <li><a href="">影评连连看丨会卖口红的编剧一定是好导演？</a></li>
+                            <li><a href="">2017第36届【香港金像奖】提名名单</a></li>
+                        </ul>
+                    </div>
+                    <div id="billboard">
+                        <div class="billboard-hd">
+                            <h2>
+                                本周口碑榜
+                                <span><a href="">更多榜单»</a></span>
+                            </h2>
+                        </div>
+                        <div id="billboard-bd">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="order">1</td>
+                                        <td class="title"><a href="">爱乐之城</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">2</td>
+                                        <td class="title"><a href="">埃塞尔与欧内斯特</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">3</td>
+                                        <td class="title"><a href="">海边的曼彻斯特</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">4</td>
+                                        <td class="title"><a href="">帕特森</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">5</td>
+                                        <td class="title"><a href="">爱国者之日</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">6</td>
+                                        <td class="title"><a href="">炙热</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">7</td>
+                                        <td class="title"><a href="">国王的选择</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">8</td>
+                                        <td class="title"><a href="">亚美尼亚大地震</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">9</td>
+                                        <td class="title"><a href="">森山中教习所</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">10</td>
+                                        <td class="title"><a href="">宁静的热情</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="show-redeem-block">
+                        <p>
+                            <span><a href="">> 通兑券换票</a></span>
+                        </p>
+                    </div>
+                    <div id="doulist">
+                        <h2>
+                            热门豆列
+                            <ul>
+                                <li>
+                                    <span>1286推荐</span>
+                                    <div class="title"><a href="">2ch杰出动画排名top200</a></div>
+                                </li>
+                                <li>
+                                    <span>62推荐</span>
+                                    <div class="title"><a href="">经典韩国电影——收集100部</a></div>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
+                    <div id="contact-and-cooperation">
+                        <div class="contact-and-cooperation-hd">
+                            <h2>合作联系</h2>
+                        </div>
+                        <div class="contact-and-cooperation-bd">
+                            <ul>
+                                <li><a href="">申请开通影片小站</a></li>
+                                <li><a href="">申请开通电影院小站</a></li>
+                                <li>通兑券咨询及购买：<img src="https://img3.doubanio.com/f/movie/1bbd07ffe71dbea3fe8eed1f47a7186ac4669029/pics/movie/email_movie_bd.png" alt=""></li>
+                                <li>电影合作邮箱：<img src="https://img3.doubanio.com/f/movie/c858df348b4d199c848774ed1b3ed529052f0fa1/pics/movie/email_movie.png" alt=""></li>
+                                <li>电视剧合作邮箱：<img src="https://img3.doubanio.com/f/movie/4de38ce91fdad7bcf3246c2594c84fa800eba08a/pics/movie/email_tv.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contact mod">
+                        <h2>关注我们</h2>
+                        <ul class="embassy-list clearfix">
+                            <li>
+                                <a href="" class="icon-embassy-weibo"></a>
+                                <a href="">微博</a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-embassy-weixin"></a>
+                                <a href="">微信</a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-embassy-award-site"></a>
+                                <a href="">鑫像奖小站</a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-embassy-club-site"></a>
+                                <a href="">观影club</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="qrcode-app">
+                        <a href="" class="download"></a>
+                    </div>
+                    <div class="extra">
+                        <div id="dale_movie_homepage_bottom">
+                            <div style="position:relative;margin:0px 0px 20px;display: inline-block;width: 950px; height: 90px; top:420px;right:640px;">
+                                <a href="">
+                                    <img src="https://img3.doubanio.com/view/dale-online/dale_ad/public/ad2ff4aaf352f3d.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">
+             © 2005－2017 douban.com, all rights reserved 北京豆网科技有限公司</span>
+             <span class="fright">
+                 <a href="">关于豆瓣</a>
+                 ·
+                 <a href="">在豆瓣工作</a>
+                 ·
+                 <a href="">联系我们</a>
+                 ·
+                 <a href="">免责声明</a>
+                 ·
+                 <a href="">帮助中心</a>
+                 ·
+                 <a href="">移动应用</a>
+                 ·
+                 <a href="">豆瓣广告</a>
+             </span>
+        </div>
+    </div>
+    <script src="jquery-3.1.1.js"></script>
+    <script>     
+            //初始化，把数据传到全局来
+            var data,subject;    
+            var $input = document.getElementById('searchinput');
+            console.log($input);
+            console.log($input.value);
+            //jquery里ajax方法传入数据    
+            $.ajax({
+                url:'https://api.douban.com/v2/movie/search',
+                type:'GET',
+                data:{
+                    q:'张艺谋',
+                    start:0,
+                    count:15,
+                },
+                crossDomain: true,
+                dataType: 'jsonp',
+                success: function (ret) {
+                    data = ret;
+                    subject = data.subjects;
+                }
+            })    
+            var button = $('.only-button');
+            console.log(button);
+            // e.which == 13 
+            //按回车传入数据，中间部分变为数据
+            $('#top-inp-btn').on('keydown',function (e) {
+                var event = e || window.event;
+                if(e.which == 13){
+                    $('.article').html('');
+                    $('.extra').css({'display' : 'none'});
+                    $('<div/>').addClass('addNew')
+                                .appendTo('.article');  
+                    var arr1 = [],
+                        arr2 = [],
+                        arr3 = [],
+                        arr4 = [],
+                        arr5 = [];
+                         
+                    //数据的dom结构动态生成                                       
+                    for(var i = 0; i < 15; i ++){
+                        var $dom = $('<p class="ul"></p>\
+                            <table width="100%">\
+                                <tbody>\
+                                    <tr class="item">\
+                                        <td width="100" valign="top">\
+                                            <a><img/></a>\
+                                        </td>\
+                                        <td valign="top">\
+                                            <div class="pl2">\
+                                                <a class="a1"><span></span></a>\
+                                                <p class="pl">\
+                                                    <span class="year"></span>\
+                                                    <span class="actor"></span>\
+                                                    <span class="other"></span>\
+                                                    2016-12-16(中国大陆) / 2017-02-17(美国) / 马特·达蒙 / 景甜 / 佩德罗·帕斯卡 / 刘德华 / 威廉·达福 / 张涵予 / 鹿晗 / 彭于晏 / 林更新 / 郑恺 / 黄轩 / 陈学冬 / 王俊凯 / 余心恬 / 刘冰 / 李亨 / 中国大陆 / 美国 / 张艺谋 / 104分钟 / 长城 / 剧情...\
+                                                </p>\
+                                                <div class="star">\
+                                                    <span class="allstar"></span>\
+                                                    <span class="rating_nums"></span>\
+                                                    <span class="pl">(186195人评价)</span>\
+                                                </div>\
+                                        </td>\
+                                    </tr>\
+                                </tbody>\
+                            </table>');
+                        $dom.appendTo($('.addNew'));
+                        //各种数据（图片，星级图片，评分等。。。）
+                        var images = subject[i].images.large,
+                            title = subject[i].title,
+                            original = subject[i].original_title,
+                            star = subject[i].rating.average,
+                            stars = subject[i].rating.stars;                          
+                        // for(var k = 0; k < 3; k ++){
+                        //     var name = subject[i].casts[k].name;
+                        //     // console.log(name);                          
+                        // }
+                        arr1[i] = images;
+                        arr2[i] = title;
+                        arr3[i] = original;
+                        arr4[i] = star;
+                        arr5[i] = stars;                
+                    }
+                    console.log(data);
+                    // console.log(arr5);
+                    //将得到的数据，用eq方法放入创建的dom结构里
+                    for(var j = 0; j < 15; j ++){
+                        $('.addNew img').eq(j).prop('src',arr1[j]);
+                        $('.a1 span').eq(j).before(arr2[j] + '/')
+                                     .html(arr3[j]);
+                        $('.rating_nums').eq(j).html(arr4[j]);
+                        $('.allstar').eq(j).addClass('allstar' + arr5[j]);
+                    }  
+                    $('<div id="paginator"/>').appendTo($('.article'));
+
+                    //翻页组件
+                    function createPage (json) {
+                        //nowNum为当前页，allNum为全部页
+                        var $Div = document.getElementById(json.id);
+                        var nowNum = json.nowNum;
+                        var allNum = json.allNum;
+                        //创建首页
+                        if(nowNum > 5 && allNum > 9){
+                            var $A = document.createElement('a');
+                            $A.href = '#1';
+                            $A.innerHTML = '首页';
+                            $Div.appendChild($A);
+                        }
+                        //创建上一页
+                        if(nowNum > 1){
+                            var $A = document.createElement('a');
+                            $A.href = '#' + (nowNum - 1);
+                            $A.innerHTML = '<前页' ;
+                            $A.className = 'prev';
+                            $Div.appendChild($A);
+                        }
+                        //除了点击的那个，其他页码有方括号
+                        if(allNum < 9){
+                            for(var i = 1; i <= allNum; i ++){
+                                var $A = document.createElement('a');
+                                $A.href = '#' + i;
+                                if(i === nowNum){
+                                    $A.innerHTML = i;
+                                    $A.className = 'thispage';
+                                }else{
+                                    $A.innerHTML =  i  ;
+                                }
+                                $Div.appendChild($A);
+                            }
+                        }else{
+                            for(var i = 1; i <= 9; i ++){
+                                var $A = document.createElement('a');
+                                if(nowNum < 5){
+                                    $A.href = '#' + i;
+                                    if(i === nowNum){
+                                        $A.innerHTML = i;
+                                    }else{
+                                        $A.innerHTML = '[' + i + ']';
+                                    }
+                                }
+                                //向两面扩散4个
+                                else if(allNum - nowNum < 4){
+                                    $A.href = '#' + (allNum - 9 + i);
+                                    if( (allNum - nowNum) === 0 && i === 9){
+                                        $A.innerHTML = allNum - 9 + i;
+                                    }else if((allNum - nowNum) === 1 && i === 8){
+                                        $A.innerHTML = allNum - 9 + i;
+                                    }else if( (allNum - nowNum) === 2 && i === 7){
+                                        $A.innerHTML = allNum - 9 + i;
+                                    }else if( (allNum - nowNum) === 3 && i === 6){
+                                        $A.innerHTML = allNum - 9 + i;
+                                    }else{
+                                        $A.innerHTML = '[' + (allNum - 9 + i) + ']';
+                                    }
+
+                                }
+                                else{
+                                    $A.href = "#" + (nowNum - 5 + i);
+                                    if(i === 5){
+                                        $A.innerHTML = (nowNum - 5 + i);
+                                    }else{
+                                        $A.innerHTML = '[' + (nowNum - 5 + i) + ']';
+                                    }
+                                    
+                                }
+                                $Div.appendChild($A);
+                            }
+                        }
+                        //创建尾页
+                        if( (allNum - nowNum) > 5){
+                            var $A = document.createElement('a');
+                            $A.href = '#' + allNum;
+                            $A.innerHTML = '尾页';
+                            $Div.appendChild($A);
+                        }
+                        //创建下一页
+                        if( (allNum - nowNum) > 0){
+                            var $A = document.createElement('a');
+                            $A.href = '#' + (nowNum + 1);
+                            $A.innerHTML = '后页>';
+                            $A.className = 'next';
+                            $Div.appendChild($A);
+                        }
+                        //点击事件
+                        var $ACollection = document.getElementsByTagName('a');
+                        for(var i = 0; i < $ACollection.length; i ++){
+                            $ACollection[i].onclick = function (){
+                                var nowNum = parseInt(this.getAttribute('href').substring(1));
+                                $Div.innerHTML = '';
+                                createPage({id : 'paginator', nowNum : nowNum, allNum : 4});
+                            }
+                        }
+
+                    }
+
+                    var data2 = {id : 'paginator', nowNum : 1, allNum : 4};
+                    createPage(data2);
+
+                    //一共的数据
+                    var total = data.total;
+                    $('<span class="count"/>').appendTo('#paginator')
+                                .html('(共' + total + '条)');
+                    return false;
+                }
+                
+            })
+        
+    </script>   
+</body>
+</html>
